@@ -12,7 +12,7 @@ function autoPalyCarousel() {
     timer = null;
   autoPlay();
   // 定义并调用自动播放函数
-  timer = setInterval(autoPlay, 3000);
+  timer = setInterval(autoPlay, 4000);
 
   // 鼠标划过整个容器时停止自动播放
   wrap.onmouseover = function () {
@@ -21,7 +21,7 @@ function autoPalyCarousel() {
 
   // 鼠标离开整个容器时继续播放至下一张
   wrap.onmouseout = function () {
-    timer = setInterval(autoPlay, 3000);
+    timer = setInterval(autoPlay, 4000);
   };
   // 遍历所有数字导航实现划过切换至对应的图片
   for (let i = 0; i < list.length; i++) {
