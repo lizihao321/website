@@ -1,0 +1,52 @@
+/* 经典案例 */
+
+.classic-case-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.classic-case-container ul {
+  margin: 20px auto 0 auto;
+  display: flex;
+}
+
+.classic-case-container ul li > div {
+  width: 274px;
+  height: 488px;
+  background-color: #fff;
+  border: 1px solid #e3e2e5;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.classic-case-container ul li > div img {
+  width: 100px;
+  height: 100px;
+}
+
+.classic-case-container ul li > div div {
+  margin-top: 40px;
+}
+
+.classic-case-container ul li div p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #595961;
+}
+
+.classic-case-container ul li div .line {
+  display: block;
+  margin: 10px auto 16px;
+  width: 24px;
+  height: 4px;
+  background: #595961;
+}
+
+.classic-case-container ul li > div:hover {
+  background: rgba(58, 140, 138, 0.5);
+  box-shadow: 0 10px 20px 0 rgba(58, 140, 138, 0.5);
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+/* 在线留言 */
+
+.comment-container .form-container {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment-container .form-container h3 {
+  color: #595961;
+  font-size: 25px;
+}
+
+.comment-container .form-container .proxy-reg-form {
+  height: auto;
+  margin: 40px auto 60px;
+}
+
+.comment-container .proxy-reg-form .form-group {
+  max-width: 650px;
+  margin: 0 auto 10px;
+}
+
+.comment-container .proxy-reg-form .form-group label {
+  vertical-align: top;
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.comment-container .proxy-reg-form .form-group .input-item {
+  display: inline-block;
+  max-width: 540px;
+  vertical-align: top;
+}
+
+.comment-container .proxy-reg-form .input-item input {
+  width: 540px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #e3e2e5;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.comment-container .submit {
+  text-align: left;
+}
+
+.comment-container .proxy-reg-form .input-item .info {
+  width: 522px;
+  height: 220px;
+  border: 1px solid #e3e2e5;
+  padding: 10px 8px;
+  color: #bbb;
+  line-height: 20px;
+}
+
+.comment-container .proxy-reg-form .ui-btn {
+  display: inline-block;
+  width: 108px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background: #2589ff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 0;
+}

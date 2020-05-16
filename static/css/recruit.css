@@ -1,0 +1,49 @@
+/* 加入桃紫 */
+
+.recruit-container {
+  margin: 10px 0;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.recruit-container .title {
+  margin-top: 30px;
+  width: 40%;
+  color: #606266;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.recruit-container .content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recruit-container .content .title {
+  font-size: 18px;
+  color: #303133;
+}
+.recruit-container .content .tips {
+  font-size: 13px;
+  color: #606266;
+  line-height: 25px;
+}
+
+.recruit-container .end-title {
+  margin-top: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.recruit-container .end-title span {
+  font-size: 14px;
+  color: #303133;
+  font-weight: 500;
+}
