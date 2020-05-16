@@ -108,12 +108,13 @@ nav li a {
   border-radius: 5px;
   background-color: #fff;
 }
-.case-content ul li span {
+.case-content ul li a {
   color: #606266;
   font-weight: 500;
   font-size: 20px;
 }
 .case-content ul li:hover {
+  cursor: pointer;
   box-shadow: 0 0 5px #dcdfe6;
 }
 .about-container .aboutmain {
