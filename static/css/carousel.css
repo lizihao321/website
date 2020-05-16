@@ -15,10 +15,10 @@
   position: absolute;
 }
 .carousel-container .wrap ul li {
-  height: 170px;
+  height: 400px;
 }
 .carousel-container .wrap ul li img {
-  width: 100%;
+  height: 100%;
 }
 .carousel-container .wrap ol {
   position: absolute;
